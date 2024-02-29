@@ -1,0 +1,69 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	testSword: {
+		DisplayName: test Sword
+		Tooltip: ""
+	}
+
+	ParadiseSpear: {
+		DisplayName: The Spear of the Holy Host
+		Tooltip:
+			'''
+			A symbol of strength and perseverance, the embodiment of light and inflexibility of the spirit.
+			This spear emits light from its tip, penetrating even through the thickest shadows.
+			'''
+	}
+
+	ParadiseBow: {
+		DisplayName: The Bow of Celestial Harmony
+		Tooltip:
+			'''
+			An emblem of grace and unity, this bow represents the harmony between heaven and earth.
+			With every arrow released, it sends forth a cascade of radiant energy,
+			weaving through the air with the precision of celestial artistry.
+			'''
+	}
+
+	ParadiseWhip: {
+		DisplayName: Paradise Whip
+		Tooltip: ""
+	}
+
+	ParadiseMagicWeapon: {
+		DisplayName: Paradise Magic Weapon
+		Tooltip: ""
+	}
+
+	ParadiseSummonStaff: {
+		DisplayName: Paradise Summon Staff
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	ExampleSpearProjectile.DisplayName: Example Spear Projectile
+	ParadiseBowProjectile.DisplayName: Paradise Bow Projectile
+	ParadiseSpearProjectile.DisplayName: Paradise Spear Projectile
+	SparklingBallProjectile.DisplayName: Sparkling Ball Projectile
+	WhipProjectile.DisplayName: Whip Projectile
+	WhipProjectileAdvanced.DisplayName: Whip Projectile Advanced
+	ParadiseMagicWeaponProjectile.DisplayName: Paradise Magic Weapon Projectile
+}
+
+Buffs: {
+	WhipAdvancedDebuff: {
+		DisplayName: Whip Advanced Debuff
+		Description: Mods.ParadiseMod.Buffs.WhipAdvancedDebuff.Description
+	}
+
+	WhipDebuff: {
+		DisplayName: Whip Debuff
+		Description: Mods.ParadiseMod.Buffs.WhipDebuff.Description
+	}
+
+	HolyFireDebuff: {
+		DisplayName: Holy Fire Debuff
+		Description: Mods.ParadiseMod.Buffs.HolyFireDebuff.Description
+	}
+}
