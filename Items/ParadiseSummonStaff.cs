@@ -21,6 +21,7 @@ public class ParadiseSummonStaff : ModItem
     {
         Item.width = 28;
         Item.height = 30;
+        Item.scale = 0.4f;
 
         Item.useTime = 20;
         Item.useAnimation = 20;

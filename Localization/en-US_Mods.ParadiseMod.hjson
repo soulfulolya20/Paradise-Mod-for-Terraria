@@ -49,6 +49,7 @@ Projectiles: {
 	WhipProjectile.DisplayName: Whip Projectile
 	WhipProjectileAdvanced.DisplayName: Whip Projectile Advanced
 	ParadiseMagicWeaponProjectile.DisplayName: Paradise Magic Weapon Projectile
+	ParadiseMinion.DisplayName: Paradise Minion
 }
 
 Buffs: {
@@ -65,5 +66,10 @@ Buffs: {
 	HolyFireDebuff: {
 		DisplayName: Holy Fire Debuff
 		Description: Mods.ParadiseMod.Buffs.HolyFireDebuff.Description
+	}
+
+	ParadiseMinionBuff: {
+		DisplayName: Paradise Minion Buff
+		Description: Mods.ParadiseMod.Buffs.ParadiseMinionBuff.Description
 	}
 }
