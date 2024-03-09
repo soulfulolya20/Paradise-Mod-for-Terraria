@@ -57,6 +57,8 @@ public class ParadiseMagicWeaponProjectile : ModProjectile
             {
                 Dust.NewDust(Projectile.position, Projectile.width, Projectile.height, ModContent.DustType<MagicWeaponDust>(),
                     Projectile.velocity.X * 0.1f, Projectile.velocity.Y * 0.1f, 50, default(Color), 1f);
+                Dust.NewDustDirect(Projectile.position, Projectile.width, Projectile.height, DustID.BlueFlare,
+                    Projectile.velocity.X * 2f, Projectile.velocity.Y * 2f, Alpha: 128, Scale: 1.2f);
             }
         }
 

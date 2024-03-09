@@ -25,6 +25,8 @@ Items: {
 			'''
 	}
 
+	ItemSetBonus.ParadiseSet: Give Immunity
+
 	ParadiseWhip: {
 		DisplayName: Paradise Whip
 		Tooltip: ""
@@ -37,6 +39,26 @@ Items: {
 
 	ParadiseSummonStaff: {
 		DisplayName: Paradise Summon Staff
+		Tooltip: ""
+	}
+
+	ParadiseBreastplate: {
+		DisplayName: Paradise Breastplate
+		Tooltip: ""
+	}
+
+	ParadiseHelmet: {
+		DisplayName: Paradise Helmet
+		Tooltip: ""
+	}
+
+	ParadiseLeggings: {
+		DisplayName: Paradise Leggings
+		Tooltip: ""
+	}
+
+	ParadiseHood: {
+		DisplayName: Paradise Hood
 		Tooltip: ""
 	}
 }

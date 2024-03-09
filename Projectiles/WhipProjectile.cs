@@ -115,7 +115,7 @@ public class WhipProjectile : ModProjectile
         if (Main.rand.NextBool(3))
         {
             Dust.NewDust(Projectile.position + Projectile.velocity, Projectile.width, Projectile.height,
-                ModContent.DustType<Sparkle>(), Projectile.velocity.X * 0.5f, Projectile.velocity.Y * 0.5f);
+                ModContent.DustType<MagicWeaponDust>(), Projectile.velocity.X * 0.5f, Projectile.velocity.Y * 0.5f);
         }
 
     }
